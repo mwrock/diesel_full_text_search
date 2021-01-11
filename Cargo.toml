@@ -7,4 +7,4 @@ license = "MIT"
 repository = "https://github.com/diesel-rs/diesel_full_text_search"
 
 [dependencies]
-diesel = { version = "*", git = "https://github.com/mwrock/diesel", branch = "openssl_static", features = ["postgres"] }
+diesel = { version = "*", git = "https://github.com/mwrock/diesel", branch = "static", features = ["postgres"] }
